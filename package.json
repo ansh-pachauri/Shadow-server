@@ -1,0 +1,27 @@
+{
+  "name": "data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node email.js",
+    "server": "nodemon email.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@react-email/components": "^0.0.28",
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "emailjs-com": "^3.2.0",
+    "express": "^4.21.1",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.9.16",
+    "nodemon": "^3.1.7",
+    "resend": "^4.0.1"
+  }
+}
