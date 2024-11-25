@@ -11,7 +11,13 @@ const port = 5000;
 
 //middlewares
 app.use(bodyParser.json());
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://shadow-frontend-ten.vercel.app", // Update with your frontend URL
+    methods: ["GET", "POST"], // Allowed HTTP methods
+    allowedHeaders: ["Content-Type"], // Allowed headers
+  })
+);
 
 //endpoint to send mail\
 
