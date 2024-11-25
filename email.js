@@ -13,7 +13,7 @@ const port = 5000;
 app.use(bodyParser.json());
 app.use(
   cors({
-    origin: ["https://shadow-frontend-ten.vercel.app", "http://localhost:5173"], // Update with your frontend URL
+    origin: ["https://shadow-frontend-34dv54gpb-ansh-pachauris-projects.vercel.app/", "http://localhost:5173"], // Update with your frontend URL
     methods: ["GET", "POST"], // Allowed HTTP methods
     allowedHeaders: ["Content-Type"], // Allowed headers
   })
